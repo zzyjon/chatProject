@@ -10,10 +10,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class MainController {
 
-	@GetMapping("/main")
+	@GetMapping("/")
 	public String main() {
 		log.debug("============== main started =============== ");
-		System.out.println("@@@@@@@@@@@@@@@@@@@ main started @@@@@@@@@@@@@@@@@@@@@");
 		return "main";
 	}
 	
